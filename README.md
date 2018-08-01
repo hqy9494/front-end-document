@@ -39,7 +39,7 @@
 | [项目地址common-web](https://git.yoopin.com.cn/common/common-web.git) | [简易教程](./common-web.md) |
 
 ## 四：提交代码
-流程：
+流程：***必须这个流程***
 1. 暂存（贮藏）代码
 2. 拉取远端代码
 3. 释放暂存（贮藏）的代码
