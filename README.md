@@ -48,8 +48,8 @@
 ## 五：问题与解决方案
 记录一些平时项目所遇到的问题和解决方案
 
-### 1问题：在手机端调试不方便
+### 问题1：在手机端调试不方便
 解决：[类似浏览器的控制台](https://github.com/liriliri/eruda)
 
-### 2问题：链接转换成二维码
+### 问题2：链接转换成二维码
 解决：[qrcode](https://github.com/davidshimjs/qrcodejs)
