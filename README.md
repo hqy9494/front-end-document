@@ -18,7 +18,7 @@
 | sass | [官网](https://www.sass.hk/) |
 
 ## 二：前台
-分为两种项目，假如项目简单不需要太多额外的包或者需要兼容ie8以下（例如落地页），可以使用[web-mobile-cli](https://github.com/sihai00/web-mobile-cli)；
+分为两种项目，假如项目简单不需要太多额外的包或者需要兼容ie8以下（例如落地页），可以使用[web-mobile-cli](https://github.com/sihai00/web-mobile-cli)。
 假如项目复杂可以使用[后台框架 + react-keeper](https://git.bosim.cc/luckytea/luckytea-h5)或者dva
 
 ### 2.1：简单的项目
@@ -33,8 +33,9 @@
 | [后台框架 + react-keeper](https://git.bosim.cc/luckytea/luckytea-h5) | [react-keeper](https://github.com/vifird/react-keeper) |
 
 ## 三：后台
-[项目地址common-web](https://git.yoopin.com.cn/common/common-web.git)
-[简易教程](./common-web.md)
+| 脚手架 | 教程 |
+|:---:|:---:|
+| [项目地址common-web](https://git.yoopin.com.cn/common/common-web.git) | [简易教程](./common-web.md) |
 
 ## 四：提交代码
 流程：
