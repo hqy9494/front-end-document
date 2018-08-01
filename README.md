@@ -18,14 +18,19 @@
 | sass | [官网](https://www.sass.hk/) |
 
 ## 二：前台
-分为两种项目，假如项目简单不需要太多额外的包或者需要兼容ie8以下（例如落地页），可以使用[web-mobile-cli](https://github.com/sihai00/web-mobile-cli)；假如项目复杂可以使用[后台框架 + react-keeper](https://git.bosim.cc/luckytea/luckytea-h5)或者dva
+分为两种项目，假如项目简单不需要太多额外的包或者需要兼容ie8以下（例如落地页），可以使用[web-mobile-cli](https://github.com/sihai00/web-mobile-cli)；
+假如项目复杂可以使用[后台框架 + react-keeper](https://git.bosim.cc/luckytea/luckytea-h5)或者dva
 
 ### 2.1：简单的项目
-[web-mobile-cli](https://github.com/sihai00/web-mobile-cli)和[使用教程](https://github.com/sihai00/blog/tree/master/2018-04-17/web-mobile-cli%E7%AE%80%E6%98%93%E6%95%99%E7%A8%8B)
+| 脚手架 | 教程 |
+|:---:|:---:|
+| [web-mobile-cli](https://github.com/sihai00/web-mobile-cli) | [使用教程](https://github.com/sihai00/blog/tree/master/2018-04-17/web-mobile-cli%E7%AE%80%E6%98%93%E6%95%99%E7%A8%8B) |
 
 ### 2.2：复杂的项目
-[dva](www.baidu.com)和[官方文档](https://github.com/dvajs/dva)
-[后台框架 + react-keeper](https://git.bosim.cc/luckytea/luckytea-h5)。react-keeper使得数据持久化
+| 脚手架 | 教程 |
+|:---:|:---:|
+| [dva](www.baidu.com) | [官方文档](https://github.com/dvajs/dva) |
+| [后台框架 + react-keeper](https://git.bosim.cc/luckytea/luckytea-h5) | [react-keeper](https://github.com/vifird/react-keeper) |
 
 ## 三：后台
 [项目地址common-web](https://git.yoopin.com.cn/common/common-web.git)
@@ -33,17 +38,17 @@
 
 ## 四：提交代码
 流程：
-1.暂存（贮藏）代码
-2.拉取远端代码
-3.释放暂存（贮藏）的代码
-4.解决冲突，保证项目没有问题
-5.提交代码
+1. 暂存（贮藏）代码
+2. 拉取远端代码
+3. 释放暂存（贮藏）的代码
+4. 解决冲突，保证项目没有问题
+5. 提交代码
 
 ## 五：问题与解决方案
 记录一些平时项目所遇到的问题和解决方案
-------
-1.问题：在手机端调试不方便
+
+### 1问题：在手机端调试不方便
 解决：[类似浏览器的控制台](https://github.com/liriliri/eruda)
-------
-2.问题：链接转换成二维码
+
+### 2问题：链接转换成二维码
 解决：[qrcode](https://github.com/davidshimjs/qrcodejs)
