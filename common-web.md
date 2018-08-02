@@ -47,7 +47,7 @@ home: {
 在src/containers下创建Index/index.js和Index/modules.js
 
 ```javascript
-// Index/index.js
+// src/containers/Index/index.js
 export default {
   initialState: {
     title: "主 页",
@@ -66,7 +66,7 @@ export default {
 ```
 
 ```javascript
-// Index/modules.js
+// src/containers/Index/modules.js
 import Index from "./Index";
 
 export default {
@@ -76,6 +76,7 @@ export default {
 
 然后暴露给路由，在src/containers/Main/makeRouters.js下添加
 ```javascript
+// src/containers/Main/makeRouters.js
 import Index from "../Index/modules";
 
 const modules = {
@@ -87,6 +88,8 @@ const modules = {
 在src/page目录下创建Index/index.js
 
 ```javascript
+// src/page/Index/index.js
+
 import React from "react";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
@@ -122,6 +125,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(Index)
 
 把页面暴露给路由
 ```javascript
+// src/page/modules.js
 import Index from "./Indexs/Index";
 
 export default {
