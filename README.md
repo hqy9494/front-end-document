@@ -19,19 +19,8 @@
 | sass | [官网](https://www.sass.hk/) |
 
 ## 二：前台
-分为两种项目，假如项目简单不需要太多额外的包或者需要兼容ie8以下（例如落地页），可以使用[web-mobile-cli](https://github.com/sihai00/web-mobile-cli)。
-假如项目复杂可以使用[后台框架 + react-keeper](https://git.bosim.cc/luckytea/luckytea-h5)或者dva
-
-### 2.1：简单的项目
-| 脚手架 | 教程 |
-|:---:|:---:|
-| [web-mobile-cli](https://github.com/sihai00/web-mobile-cli) | [使用教程](https://github.com/sihai00/blog/tree/master/2018-04-17/web-mobile-cli%E7%AE%80%E6%98%93%E6%95%99%E7%A8%8B) |
-
-### 2.2：复杂的项目
-| 脚手架 | 教程 |
-|:---:|:---:|
-| [dva](www.baidu.com) | [官方文档](https://github.com/dvajs/dva) |
-| [后台框架 + react-keeper](https://git.bosim.cc/luckytea/luckytea-h5) | [react-keeper](https://github.com/vifird/react-keeper) |
+1. [后台框架 + react-keeper](https://git.bosim.cc/luckytea/luckytea-h5)
+2. [dva](https://dvajs.com/)（[已经封装好的dva](https://git.bosim.cc/chensihai/dva-front)）
 
 ## 三：后台
 | 脚手架 | 教程 |
